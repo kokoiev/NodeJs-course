@@ -1,0 +1,21 @@
+{
+  "name": "test-package-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "calculator": "node_modules/my-first-npm-package-calculator/src/cli.js"
+  },
+  "scripts": {
+    "add": "npx my-first-npm-package-calculator add",
+    "div": "npx my-first-npm-package-calculator div",
+    "sub": "npx my-first-npm-package-calculator sub",
+    "mul": "npx my-first-npm-package-calculator mul",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "my-first-npm-package-calculator": "^1.6.0"
+  }
+}
